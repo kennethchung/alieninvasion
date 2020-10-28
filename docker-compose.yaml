@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - "8289:80"
+  redis:
+    image: "redis:alpine"
+
